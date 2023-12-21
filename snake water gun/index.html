@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>snake-water-gun</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h2 class="title">Snake-Water-Gun</h2>
+                <h3>CRUP-Presents</h3>
+            </div>
+        </header>
+        <main>
+            <div class="image-container">
+                <div class="img-container-1">
+                    <div class="imgs-1">
+                        <img src="./assests/human logo.jpg" alt="" id="human" class="images">
+                        <img src="./assests/snake.jpg" alt="" id="snake" class="images">
+                        <img src="./assests/water.jpg" alt="" id="water" class="images">
+                        <img src="./assests/gun.jpg" alt="" id="gun" class="images">
+                    </div>
+                    <h2>Human</h2>
+                </div>
+                <h1>VS</h1>
+                <div class="img-container-2">
+                    <div class="imgs-2">    
+                        <img src="./assests/bot.jpg" alt="" id="robot" class="images">
+                        <img src="./assests/snake.jpg" alt="" id="snake-ai" class="images">
+                        <img src="./assests/water.jpg" alt="" id="water-ai" class="images">
+                        <img src="./assests/gun.jpg" alt="" id="gun-ai" class="images">
+                    </div>
+                    <h2>Computer</h2>
+                </div>
+            </div>
+            <div class="action-container">
+                <button id="snake-btn" class="action-btn">Snake</button>
+                <button id="water-btn"class="action-btn">Water</button>
+                <button id="gun-btn" class="action-btn">Gun</button>
+            </div>
+       
+        </main>
+        <div class="scoreboard">
+            <h3 id="score-head">Scoreboard</h3>
+            <div class="score-main">
+                <h4>No.of.Matches Played: <span id="matches">0</span></h4>
+                <h4>No.of.Wins: <span id="wins">0</span></h4>
+                <h4>No.of.Loses: <span id="loses">0</span></h4>
+                <h4>No.of.Ties: <span id="ties">0</span></h4>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
